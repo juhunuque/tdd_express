@@ -4,7 +4,7 @@
 Here there is a boilerplate created for NodeJs projects, specifically for express generated projects. Anyone can use this as a guide if it is starting a project from scratch.
 
 ## What is TDD?
-[TDD](http://agiledata.org/essays/tdd.html) or Test Driven Development is a good approach if we want to make our classes testable since the beginning.
+[TDD][http://agiledata.org/essays/tdd.html] or Test Driven Development is a good approach if we want to make our classes testable since the beginning.
 It consist in create our tests before functions, it means that at the end of the project, you're going to have a good level of coverage in terms of test.
 
 It based on a basic workflow:
@@ -16,14 +16,14 @@ It based on a basic workflow:
 6- Watch the test **PASS**
 
 ## Install and use it
-If you prefer, you can use this repo as a boilerplate for a new project, if you use (express-generator)[https://www.npmjs.com/package/express-generator], you will get
+If you prefer, you can use this repo as a boilerplate for a new project, if you use [express-generator][https://www.npmjs.com/package/express-generator], you will get
 the same structure, I just added a folder called test and some extra dependencies.
 
 ## Create it from scratch
 
 ### Creating a new project
 We are going to need some things before to start:
-- NodeJs installed, (refer to this link if you don't have it)[https://nodejs.org/en/]
+- NodeJs installed, [refer to this link if you don't have it][https://nodejs.org/en/]
 - Knowledge about testing (Pretty basic, you don't need to be an expert)
 - Basic knowledge about NodeJs and Express framework
 
@@ -42,7 +42,7 @@ $ npm install express-generator -g
 $ express tdd_test
 ```
 
-- You will have a new project with a folder structure, if you don't know about express, (refer to this link)[http://www.journaldev.com/7993/nodejs-express-js-and-express-generator-module-basics]
+- You will have a new project with a folder structure, if you don't know about express, [refer to this link][http://www.journaldev.com/7993/nodejs-express-js-and-express-generator-module-basics]
 - Now we need to execute an install in order to install dependencies included in the package.json:
 ```sh
 $ npm install
@@ -55,9 +55,9 @@ Check out that there is no errors in the terminal
 
 ### Testing Section (Install dependencies)
 Now we need to configure all the dependencies that we are going to require in this guide:
-- (Mocha)[https://mochajs.org/] as a test runner
-- (Chai)[http://chaijs.com/] as an assertion library
-- (Superagent)[https://github.com/visionmedia/superagent] as a light-weight library for http requests
+- [Mocha][https://mochajs.org/] as a test runner
+- [Chai][http://chaijs.com/] as an assertion library
+- [Superagent][https://github.com/visionmedia/superagent] as a light-weight library for http requests
 
 - You should install Mocha globally:
 ```sh
