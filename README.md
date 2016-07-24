@@ -210,4 +210,4 @@ router.get('/hello', function(req, res, next) {
 - **You've tested your first endpoint!**
 
 ## Extra
-You also can find a folder of controllers with a example how to test a function by using Chai and Mocha.
+You can also find a folder of controllers with a example about how to test a function by using Chai and Mocha.
